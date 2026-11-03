@@ -31,10 +31,10 @@ The server waits for messages from a client, displays the received message, and 
 ## 📂 Project Structure
 
 text
-UDP-Client-Server/
+Socket_Programming/
 │
-├── server.c
-├── client.c
+├── UDP_Client_Socket.c
+├── UDP_Server_Socket.c
 └── README.md
 
 
