@@ -92,3 +92,55 @@ Server: I am fine!
 * `sendto()` function
 * IP address and port configuration
 * Client-server communication
+
+
+# TCP Client-Server Communication in C
+
+## Description
+
+This project demonstrates TCP communication between a client and server using socket programming in C.
+
+## Technologies Used
+
+* C Programming
+* TCP Protocol
+* Socket Programming
+
+## Example Output
+
+**Server Side**
+
+text
+Socket connection successfully
+
+Server is waiting....
+
+Client connected
+
+Client: Hello Server!
+Server: Hello Client!
+
+
+**Client Side**
+
+text
+Client: Hello Server!
+Server: Hello Client!
+
+
+## Functions Used
+
+* `socket()` – Creates a socket.
+* `bind()` – Assigns an address.
+* `listen()` – Waits for connections.
+* `accept()` – Accepts a client.
+* `recv()` – Receives data.
+* `send()` – Sends data.
+
+## How to Run
+
+bash
+gcc server.c -o server
+./server
+
+Run the client in another terminal.
